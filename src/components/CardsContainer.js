@@ -1,11 +1,22 @@
 import React from 'react'
-import { store } from '../../data/store'
+import Card from './Card'
 
-function CardsContainer() {
+function CardsContainer({ cards, date }) {
   return (
-    <div>
-      <h1>Cards Container</h1>
-    </div>
+    <section className="cards-container">
+      <h2>{ date }</h2>
+
+      <div className="cards-content">
+        {
+          cards.map( card => (
+            <Card
+              key={ card.id }
+              { ...card }
+            />
+          ))
+        }
+      </div>
+    </section>
   )
 }
 
