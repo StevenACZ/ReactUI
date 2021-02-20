@@ -1,10 +1,15 @@
 import React from 'react'
 
-const Link = () => {
+const Link = ({
+  text,
+  active = false
+}) => {
   return (
-    <div>
-      <h1>Link</h1>
-    </div>
+    <button
+      className={ active ? 'btn active' : 'btn' }
+    >
+      { text }
+    </button>
   )
 }
 
