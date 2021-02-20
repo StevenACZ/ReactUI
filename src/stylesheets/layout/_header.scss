@@ -13,20 +13,6 @@
     align-items: center;
     gap: 8px;
     height: 100%;
-
-    .btn {
-      padding: 16px;
-      border-radius: 24px;
-      border: none;
-      background: white;
-      cursor: pointer;
-      height: 100%;
-
-      &.active {
-        background: #111111;
-        color: white;
-      }
-    }
   }
 
   &-container__input {
