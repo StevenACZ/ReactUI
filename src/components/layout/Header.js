@@ -1,13 +1,21 @@
 import React from 'react'
 import 'remixicon/fonts/remixicon.css'
+import Link from '../Link'
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-container__buttons">
-        <button className="btn">Inicio</button>
-        <button className="btn active">Hoy</button>
-        <button className="btn">Siguiendo</button>
+        <Link
+          text='Inicio'
+        />
+        <Link
+          text='Hoy'
+          active={ true }
+        />
+        <Link
+          text='Siguiendo'
+        />
       </div>
 
       <div className="header-container__input">
