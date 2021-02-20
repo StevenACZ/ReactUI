@@ -9,7 +9,7 @@ import img8 from '../assets/image-8.png'
 export const store = [
   {
     id: 'as13123',
-    date: '18 febrero de 2021',
+    date: '18 de febrero de 2021',
     cards: [
       {
         id: '0002',
@@ -33,7 +33,7 @@ export const store = [
   },
   {
     id: 'asdasd12313123',
-    date: '19 febrero de 2021',
+    date: '19 de febrero de 2021',
     cards: [
       {
         id: '231asdadasd',
