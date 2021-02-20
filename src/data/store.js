@@ -12,10 +12,23 @@ export const store = [
     date: '18 febrero de 2021',
     cards: [
       {
+        id: '0002',
+        img: img7,
+        title: 'Agendas y bullet journals',
+        description: 'Para días más productivos'
+      },
+      {
+        id: '1110002',
+        img: img2,
+        title: 'Para IOS',
+        description: 'Intereses, el nuevo Widget de Pinterest'
+      },
+      {
+        id: '02002',
         img: img1,
-        title: 'Hola!',
-        description: 'asdadadasdasd'
-      }
+        title: 'Gafas de sol',
+        description: 'Un accesorio que no puede faltar en tu look'
+      },
     ]
   },
   {
@@ -24,15 +37,27 @@ export const store = [
     cards: [
       {
         id: '231asdadasd',
-        img: img2,
-        title: 'Hola!',
-        description: 'asdadadasdasd'
+        img: img3,
+        title: 'Estilo colonial y moderno',
+        description: 'Un viaje por la arquitectura mexicana'
       },
       {
         id: '2323llso',
-        img: img3,
-        title: 'Hola!',
-        description: 'asdadadasdasd'
+        img: img4,
+        title: 'Ideas para decorar',
+        description: 'Espejos con mucho estilo para tu casa'
+      },
+      {
+        id: '2323ll32so',
+        img: img5,
+        title: 'Inteligencia Artificial',
+        description: 'Cómo utilizarla para un mundo mejor'
+      },
+      {
+        id: '2323lllllso',
+        img: img8,
+        title: 'Agendas y bullet journals',
+        description: 'Para días más productivos'
       }
     ]
   },
