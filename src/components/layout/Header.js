@@ -11,14 +11,14 @@ const Header = () => {
       </div>
 
       <div className="header-container__input">
-        <i class="ri-search-line"></i>
+        <i className="ri-search-line"></i>
         <input placeholder="Buscar" />
       </div>
 
       <div className="header-container__icons">
-        <i class="ri-notification-2-fill"></i>
-        <i class="ri-message-2-fill"></i>
-        <i class="ri-user-3-fill"></i>
+        <i className="ri-notification-2-fill"></i>
+        <i className="ri-message-2-fill"></i>
+        <i className="ri-user-3-fill"></i>
       </div>
     </header>
   )
